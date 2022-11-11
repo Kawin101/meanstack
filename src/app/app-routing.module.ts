@@ -7,6 +7,7 @@ import { ListStudentComponent } from './list-student/list-student.component';
 const routes: Routes = [
   { path:'', component:ListStudentComponent },
   { path: 'add-student', component:AddStudentComponent },
+  { path: 'list-student', component:ListStudentComponent },
   { path: 'edit-student/:id', component:EditStudentComponent}
 ];
 

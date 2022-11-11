@@ -28,6 +28,9 @@ import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
 
 
 @NgModule({
@@ -57,7 +60,10 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     MatSidenavModule,
     MaterialModule,
     FlexLayoutModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule,
+    MatPaginatorModule,
+    
     
     
   ],

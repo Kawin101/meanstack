@@ -3,10 +3,10 @@
         <mat-icon>home</mat-icon> <span class="nav-caption">Home</span>
     </a>
     <a mat-list-item routerLink="/add-student" (click)="onSidenavClose()">
-        <mat-icon>assignment_ind</mat-icon> <span class="nav-caption">Owner Actions</span>   
+        <mat-icon>note_add</mat-icon> <span class="nav-caption">Add Student</span>   
     </a>
-    <a mat-list-item routerLink="/edit-student/:id" (click)="onSidenavClose()">
-        <mat-icon>account_balance</mat-icon><span class="nav-caption">Account Actions</span>
+    <a mat-list-item routerLink="/list-student" (click)="onSidenavClose()">
+        <mat-icon>list</mat-icon><span class="nav-caption">Show Student</span>
     </a>
 
     <mat-list-item [matMenuTriggerFor]="menu">
